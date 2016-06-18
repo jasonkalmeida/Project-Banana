@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    background: rgb(255, 222, 116);
+    background: rgb(255, 217, 205);
 }
 
 h1 {
-	position: absolute;
-	text-align: center;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%,-100%);
-	font-size: 10em;
-	color: rgb(114, 216, 138);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-100%);
+    font-size: 10em;
+    color: #5BC0EB;
 }
 
 div.a {
@@ -24,7 +24,7 @@ div.a {
 }
 
 div.a:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 @-webkit-keyframes rotation {
@@ -36,3 +36,5 @@ div.a:hover {
         -webkit-transform: rotate(359deg);
     }
 }
+
+
