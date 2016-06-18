@@ -1,0 +1,22 @@
+{
+  "name": "project-banana",
+  "version": "1.0.0",
+  "description": "7 or 9 pineapples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonkalmeida/Project-Banana.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonkalmeida/Project-Banana/issues"
+  },
+  "homepage": "https://github.com/jasonkalmeida/Project-Banana#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
