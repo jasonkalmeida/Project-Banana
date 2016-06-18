@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background: rgb(255, 217, 205);
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: gradient(red, yellow);
+
 }
 
 h1 {
@@ -11,6 +13,7 @@ h1 {
     -webkit-transform: translate(-50%,-100%);
     font-size: 10em;
     color: #5BC0EB;
+    animation: change 10s infinite ease;
 }
 
 div.a {
@@ -34,6 +37,24 @@ div.a:hover {
 
     to {
         -webkit-transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes change {
+    0% {
+        color: #5BC0EB;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: rgb(255, 27, 215);
+    }
+    75% {
+        color: rgb(0, 243, 0);
+    }
+    100% {
+        color: #5BC0EB;
     }
 }
 
